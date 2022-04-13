@@ -4,8 +4,10 @@ public class Board{
      
 
 
+public int populate(){
 
-
+    return 0;
+}
 
 
 
