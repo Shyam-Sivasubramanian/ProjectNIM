@@ -8,20 +8,9 @@ public class Game {
     }
    
 
-    public String goFirst(){
+    public int goFirst(){
         Random r = new Random();
         int y = r.nextInt(2);
-        if (y == 1){
-            return "Player 1 goes first";
-        }
-        else if (y==0){
-            return "Player 2 goes first";
-        }
-        return "non";
-            
-
-
+        return y;
     }
 }
-    
-
